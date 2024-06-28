@@ -21,6 +21,7 @@ def main() -> None:
     generator = load_model(Generator, 
         model_path=os.path.join(config.MODELS_PATH, 'Generator_best.pth'),
         device=device,
+        latent_size=config.LATENT_SIZE,
         **config.GENR_PARAMS
     ).to(device)
 
