@@ -1,0 +1,11 @@
+# Log files
+.log
+
+# Vs-Code cache files
+__pycache__
+
+# The generated images
+.jgp
+
+# The saved pytorch models
+.pth
