@@ -81,7 +81,7 @@ def main() -> None:
     logger.info(f'Training Results: {train_res}')
 
     # Plot the losses and save them
-    plot_losses(train_res['discr_losses'], train_res['genr_losses'], save=True)
+    plot_losses(train_res['valid_discr_losses'], train_res['valid_genr_losses'], save=True)
 
 
 if __name__ == '__main__':
