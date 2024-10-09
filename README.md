@@ -5,7 +5,7 @@ This project aims to generate anime faces using Generative Adversarial Networks 
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/AnimeFaces-GAN.git
+git clone https://github.com/PJF9/Animefaces-GAN.git)
 cd AnimeFaces-GAN
 ```
 
